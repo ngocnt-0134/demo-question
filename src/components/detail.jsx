@@ -20,8 +20,8 @@ Detail.propTypes = {
       like: PropTypes.array,
       addressNow: PropTypes.string,
       phone: PropTypes.number,
-      email:PropTypes.email
+      email:PropTypes.string
 
     })
-  }
+  };
 export default Detail;

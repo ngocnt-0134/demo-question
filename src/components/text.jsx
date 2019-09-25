@@ -8,7 +8,7 @@ class Text extends React.Component {
         return (
             <React.Fragment>
                     <div className="form__group">
-                        <input type="text" className="form__input" 
+                        <input type={question.type} className="form__input" 
                         name={question.name} 
                         id={question.id}
                         required
