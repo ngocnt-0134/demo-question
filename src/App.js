@@ -45,6 +45,7 @@ class App extends React.Component {
     console.log(e.target.value);
     let name = e.target.name;
     let value;
+    
     value = e.target.type === "radio" || e.target.type === "checkbox" ? e.target.id : e.target.value;
     if (e.target.type==="checkbox") {
       array.push(value) ;
