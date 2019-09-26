@@ -23,5 +23,5 @@ Detail.propTypes = {
       email:PropTypes.email
 
     })
-  }
+  };
 export default Detail;
