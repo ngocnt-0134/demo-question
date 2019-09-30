@@ -5,7 +5,7 @@ import './App.css';
 import QuestionText from './components/text';
 import QuestionRadio from './components/radio';
 import QuestionSelect from './components/select';
-import Checkbox from './components/checkbox';
+import QuestionCheckbox from './components/checkbox';
 import Detail from './components/detail';
 import QUESTIONS from './data';
 
@@ -63,7 +63,7 @@ class App extends React.Component {
       case 'select':
         return <QuestionSelect question={question} getChange={(target) => this.onChangeHandle(target)} />;
       case 'checkbox':
-        return <Checkbox question={question} getChange={(target) => this.onChangeHandle(target)} />;
+        return <QuestionCheckbox question={question} getChange={(target) => this.onChangeHandle(target)} />;
 
       default:
         break;

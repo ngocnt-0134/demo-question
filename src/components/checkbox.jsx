@@ -2,7 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Checkbox = (props) => {
+const QuestionCheckBox = (props) => {
   const { question, getChange } = props;
   return (
     <div>
@@ -32,7 +32,7 @@ const Checkbox = (props) => {
   );
 };
 
-Checkbox.propTypes = {
+QuestionCheckBox.propTypes = {
   question: PropTypes.shape({
     content: PropTypes.array,
     quiz: PropTypes.string,
@@ -40,4 +40,4 @@ Checkbox.propTypes = {
   }).isRequired,
   getChange: PropTypes.func.isRequired,
 };
-export default Checkbox;
+export default QuestionCheckBox;
