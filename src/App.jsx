@@ -31,11 +31,9 @@ class App extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    const { form } = this.state;
     this.setState({
       show: 'hide',
     });
-    return <Detail data={form} />;
   };
 
   onChangeHandle = (e) => {
